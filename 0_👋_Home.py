@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="<Miguel Martin Oviedo> Portfolio",
     page_icon="📊",
 )
 
@@ -20,7 +20,7 @@ with st.sidebar:
 
 
 # ----- Top title -----
-st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
+st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Miguel """, unsafe_allow_html=True)  # TODO: Add your name
 
 
 # ----- Profile image file -----
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "Big data & Analytics student "  
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,19 +51,25 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I am a studying a master related to Big Data and analytics but
+          I am also developing my own business based on BINGO with smells"
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: I have studied Economics in the University of Salamanca. During this years I had the opportunity to do an erasmus in Poland and 
+         by the time I finished my grade I lived for one year in Copenhaguen
 
-- ❤️ <Your Passion and/or Interests>
+- ❤️ I like running and staying helthy but what in really enjoy is cooking very special fishes from different gastronomies but the spanish kitchen is my favourite.
+         I also enjoy playing card games such as Poker"
 
-- 🤖 <Your Personal Projects>
+- 🤖 I am developing a business with my sister based on BINGO but including the experience of smelling and recognincing the smell of 
+         food, plants, species... is a completely unknown experience for most of the assitants and the format is like a show"
 
-- 🏂 <Your Hobbies>
+- 🏂 I like cooking, doing Yoga, Mindfullnes, playing card games, ski...
 
-- 📫 How to reach me: <Your Email>
+- 📫 mmartovi@icloud.com and u can follow the instagram of my company: https://www.instagram.com/elgranbingoolfativo?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==
+- 
 
 - 🏠 Barcelona
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
+
